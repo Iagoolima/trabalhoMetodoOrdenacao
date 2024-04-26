@@ -1,0 +1,14 @@
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.GeneratedMSBuildEditorConfig.editorconfig
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.AssemblyInfoInputs.cache
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.AssemblyInfo.cs
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.csproj.CoreCompileInputs.cache
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/bin/Debug/net8.0/Aula 02
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/bin/Debug/net8.0/Aula 02.deps.json
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/bin/Debug/net8.0/Aula 02.runtimeconfig.json
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/bin/Debug/net8.0/Aula 02.dll
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/bin/Debug/net8.0/Aula 02.pdb
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.dll
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/refint/Aula 02.dll
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.pdb
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.genruntimeconfig.cache
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/ref/Aula 02.dll
