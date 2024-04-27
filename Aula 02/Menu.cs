@@ -17,7 +17,7 @@ public class Menu
             Console.WriteLine("2 - Bouble sorte");
             Console.WriteLine("3 - Selection sort");
             Console.WriteLine("4 - insertion sort ");
-            Console.WriteLine("5 - select sort");
+            Console.WriteLine("5 - Shell sort");
             Console.Write("Opcao: ");
             opc = int.Parse(Console.ReadLine());
             
