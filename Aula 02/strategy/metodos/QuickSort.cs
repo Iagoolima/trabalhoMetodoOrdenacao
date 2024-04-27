@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Aula_02.strategy;
 
 namespace Aula_02;
@@ -6,9 +7,14 @@ public class QuickSort : SortStrategy
 {
     public int[] sort(int[] array) {
         if (array == null || array.Length == 0) {
-            return new int[0]; // Retornando um array vazio se o array de entrada for nulo ou vazio
+            return new int[0]; 
         }
+        Stopwatch stopwatch = Stopwatch.StartNew();
         sort(array, 0, array.Length - 1);
+        
+        long tempoDecorrido = stopwatch.ElapsedMilliseconds;
+        stopwatch.Stop();
+        Console.WriteLine("Esse metodo levou " + tempoDecorrido + " milesimos de segundos para ser executado");
         return array;
     }
 

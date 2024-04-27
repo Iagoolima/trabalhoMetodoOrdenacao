@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Aula_02.strategy;
 
 namespace Aula_02
@@ -6,6 +7,7 @@ namespace Aula_02
     {
         public int[] sort(int[] array)
         {
+            Stopwatch stopwatch = Stopwatch.StartNew();
             int n = array.Length;
             
             for (int intervalo = n / 2; intervalo > 0; intervalo /= 2)
@@ -23,7 +25,9 @@ namespace Aula_02
                     array[j] = temp;
                 }
             }
-            
+            long tempoDecorrido = stopwatch.ElapsedMilliseconds;
+            stopwatch.Stop();
+            Console.WriteLine("Esse metodo levou " + tempoDecorrido + " milesimos de segundos para ser executado");
             return array;
         }
 

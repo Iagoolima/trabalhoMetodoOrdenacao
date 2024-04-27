@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Aula_02.strategy;
 
 namespace Aula_02;
@@ -6,6 +7,7 @@ public class SelectionSort : SortStrategy
 {
     public int[] sort(int[] array)
     {
+        Stopwatch stopwatch = Stopwatch.StartNew();
         var arrayLength = array.Length;
         for (int i = 0; i < arrayLength - 1; i++)
         {
@@ -21,6 +23,9 @@ public class SelectionSort : SortStrategy
             array[smallestVal] = array[i];
             array[i] = tempVar;
         }
+        long tempoDecorrido = stopwatch.ElapsedMilliseconds;
+        stopwatch.Stop();
+        Console.WriteLine("Esse metodo levou " + tempoDecorrido + " milesimos de segundos para ser executado");
         return array;
     }
 

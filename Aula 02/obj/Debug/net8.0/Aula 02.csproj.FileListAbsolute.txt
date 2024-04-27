@@ -12,3 +12,4 @@
 /Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.pdb
 /Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.genruntimeconfig.cache
 /Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/ref/Aula 02.dll
+/Users/iagosilva/Documents/Codigos/wakim 2/Aula 02/Aula 02/obj/Debug/net8.0/Aula 02.sourcelink.json
