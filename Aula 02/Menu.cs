@@ -8,13 +8,7 @@ public class Menu
     {
         int opc;
         SortPlanner arraySortPlanner = new SortPlanner();
-        
-        SortStrategy boubleSort = new BoubleSort();
-        SortStrategy selectionSort = new SelectionSort();
-        SortStrategy insertionSort = new InsertionSort();
-        SortStrategy quickSort = new QuickSort();
-        SortStrategy shellSort = new ShellSort();
-        
+
         do
         {
             Console.Clear();
@@ -30,18 +24,23 @@ public class Menu
             switch (opc)
             {
                 case 1:
+                    SortStrategy quickSort = new QuickSort();
                     quickSort.tamanhoArray();
                     break;
                 case 2:
+                    SortStrategy boubleSort = new BoubleSort();
                     boubleSort.tamanhoArray();
                     break;
                 case 3:
+                    SortStrategy selectionSort = new SelectionSort();
                     selectionSort.tamanhoArray();
                     break;
                 case 4:
+                    SortStrategy insertionSort = new InsertionSort();
                     insertionSort.tamanhoArray();
                     break;
                 case 5:
+                    SortStrategy shellSort = new ShellSort();
                     shellSort.tamanhoArray();
                     break;
                 default:
