@@ -23,7 +23,7 @@ public class SelectionSort : SortStrategy
             array[smallestVal] = array[i];
             array[i] = tempVar;
         }
-        long tempoDecorrido = stopwatch.ElapsedMilliseconds;
+        TimeSpan tempoDecorrido = stopwatch.Elapsed;
         stopwatch.Stop();
         Console.WriteLine("Esse metodo levou " + tempoDecorrido + " milesimos de segundos para ser executado");
         return array;

@@ -24,7 +24,7 @@ public class InsertionSort : SortStrategy
                 else flag = 1;
             }
         }
-        long tempoDecorrido = stopwatch.ElapsedMilliseconds;
+        TimeSpan tempoDecorrido = stopwatch.Elapsed;
         stopwatch.Stop();
         Console.WriteLine("Esse metodo levou " + tempoDecorrido + " milesimos de segundos para ser executado");
         return array;
